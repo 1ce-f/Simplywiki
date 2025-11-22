@@ -1,0 +1,105 @@
+/* style.css — 共通スタイル */
+
+body.wiki-container {
+    font-family: "Helvetica", "Arial", sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.wiki-header {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.wiki-title {
+    margin: 0;
+    font-size: 2em;
+    color: #222;
+}
+
+.wiki-nav .nav-item {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.wiki-nav .nav-item:hover {
+    text-decoration: underline;
+}
+
+.wiki-content {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.wiki-footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.wiki-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.wiki-list li {
+    margin-bottom: 10px;
+}
+
+.wiki-article-link {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.wiki-article-link:hover {
+    text-decoration: underline;
+}
+
+.wiki-edit-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.wiki-edit-textarea {
+    width: 100%;
+    font-family: monospace;
+    font-size: 1em;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.wiki-edit-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.wiki-button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.wiki-button-primary {
+    background-color: #0066cc;
+    color: #fff;
+}
+
+.wiki-button-secondary {
+    background-color: #ccc;
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1.5;
+    text-align: center;
+}

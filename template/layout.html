@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>{{PAGE_TITLE}}</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body class="wiki-container">
+
+<header class="wiki-header">
+    <h1 class="wiki-title">{{SITE_TITLE}}</h1>
+    <nav class="wiki-nav">
+        <a href="/index.php" class="nav-item">ホーム</a>
+        <a href="/edit.php?id={{PAGE_ID}}" class="nav-item">編集</a>
+        <a href="/new.php" class="nav-item">新規作成</a>
+        <a href="/admin/login.php" class="nav-item">管理者</a>
+    </nav>
+</header>
+
+<main class="wiki-content">
+    {{PAGE_CONTENT}}
+</main>
+
+<footer class="wiki-footer">
+    Powered by RetroWiki
+</footer>
+
+</body>
+</html>
